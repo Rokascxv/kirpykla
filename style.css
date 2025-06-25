@@ -79,7 +79,7 @@ nav {
     transform: scale(1.1);
 }
 .nav-center a:hover {
-    color: #555; /* spalva pasikeičia užvedus */
+    color: #555;
 }
 
 .hero {
