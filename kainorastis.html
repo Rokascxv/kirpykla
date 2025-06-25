@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apie</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="image/favi.png">
+
+</head>
+<body>
+
+    <nav>
+  <div class="nav-left">
+    <a href="index.html" class="logo">
+      <img src="image/kirpykla_logo.png" alt="Kirpyklos logotipas">
+    </a>
+  </div>
+
+  <div class="nav-center">
+    <a href="apie.html">Apie</a>
+
+    <div class="nav-dropdown">
+      <a href="kontaktai.html">Kontaktai</a>
+      <div class="dropdown-content">
+        <a href="rezervacija.html">Rezervacija</a>
+      </div>
+    </div>
+
+    <div class="nav-dropdown">
+      <a href="paslaugos.html">Paslaugos</a>
+      <div class="dropdown-content">
+        <a href="kainorastis.html">Kainoraštis</a>
+      </div>
+    </div>
+
+    <a href="galerija.html">Galerija</a>
+  </div>
+
+  <div class="nav-right">
+    <a href="#"><img src="image/fb.png" alt="Facebook"></a>
+    <a href="#"><img src="image/ig.png" alt="Instagram"></a>
+  </div>
+</nav>
+  <section class="paslaugos-lentele">
+    <h2>Kainoraštis</h2>
+    <div class="paslaugos-lentele-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Paslauga</th>
+            <th>Kaina</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Plaukų kirpimas</td><td>15€</td></tr>
+          <tr><td>Modeliavimas</td><td>10€</td></tr>
+          <tr><td>Dažymas (viena spalva)</td><td>30€</td></tr>
+          <tr><td>Dažymas (balayage)</td><td>50€</td></tr>
+          <tr><td>Plaukų tiesinimas</td><td>25€</td></tr>
+          <tr><td>Garbanojimas</td><td>30€</td></tr>
+          <tr><td>Barzdos formavimas</td><td>12€</td></tr>
+          <tr><td>Vaikų kirpimas</td><td>12€</td></tr>
+          <tr><td>Galvos masažas</td><td>10€</td></tr>
+          <tr><td>Laminavimas</td><td>35€</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+	
+	
+ <footer>
+  <div class="footer-grid">
+    <div class="footer-form">
+      <h3>Susisiekite</h3>
+      <form class="contact-form" action="#" method="post">
+        <input type="text" name="vardas" placeholder="Vardas" 
+               pattern="[A-Za-zĄČĘĖĮŠŲŪŽąčęėįšųūž ]{2,}" 
+               title="Įveskite tik raides" required>
+        
+        <input type="email" name="email" placeholder="El. paštas" required>
+
+        <input type="tel" name="tel" placeholder="Telefonas" 
+               pattern="[\+0-9 ]{6,}" 
+               title="Įveskite galiojantį numerį" required>
+
+        <select name="tema" required>
+          <option value="">Pasirinkite paslaugą</option>
+          <option value="kirpimas">Kirpimas</option>
+          <option value="dažymas">Dažymas</option>
+          <option value="barzda">Barzdos formavimas</option>
+        </select>
+
+        <textarea name="zinute" rows="3" placeholder="Jūsų žinutė" required></textarea>
+
+        <button type="submit">Siųsti</button>
+      </form>
+    </div>
+	
+    <div class="footer-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1058.0684279688953!2d23.54422529564761!3d55.811140008290714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e60dcfd24d6203%3A0x87254757924e7175!2sStov%C4%97jimo%20aik%C5%A1tel%C4%97%2C%20Gedimino%20g.%209%2C%20Radvili%C5%A1kis%2C%2082174%20Radvili%C5%A1kio%20r.%20sav.!5e0!3m2!1slt!2slt!4v1750775180810!5m2!1slt!2slt" 
+        width="100%" height="250" style="border:0;" 
+        allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+
+  </div>
+
+  <p class="footer-copy">© 2025 Rokas Giedraitis</p>
+</footer>
+</body>
+</html>
